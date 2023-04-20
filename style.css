@@ -69,3 +69,33 @@ li{
 }
 
 /* Design do header concluido */
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.container {
+    width: 1200px;
+    
+    margin: 0 auto;
+
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+.container div{
+    flex: 1 1 300px;
+
+}
+
+.container img{
+    width: 100%;
+    border-radius: 15px;
+
+   
+}
+
+
+
